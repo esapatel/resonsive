@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    body{
+    height: 100%;
+    width: 100%;
+    background-color: #a8dadc;
+}
+.fot{
+    background-color:#03045e;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.fot-cont{
+align-items: center;
+gap: 4vh;
+display: flex;
+margin-right: 10px;
+
+}
+.fot-cont a{
+   
+  text-decoration: none;
+    color: aliceblue;
+    
+
+ }
+ @media (max-width:600px){
+    .fot-cont{
+        padding: 0 5vh;
+        font-size: 1.5vh;
+    }
+
+ }
